@@ -1,4 +1,4 @@
-package com.alexkolson.wtf.hibernate.entity;
+package de.hamburgchimps.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

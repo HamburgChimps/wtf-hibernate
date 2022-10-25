@@ -1,6 +1,6 @@
-package com.alexkolson.wtf.hibernate.repository;
+package de.hamburgchimps.repository;
 
-import com.alexkolson.wtf.hibernate.entity.CrazyUncle;
+import de.hamburgchimps.entity.CrazyUncle;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CrazyUncleRepository extends JpaRepository<CrazyUncle, Long> {

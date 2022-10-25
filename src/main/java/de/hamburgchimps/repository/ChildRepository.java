@@ -1,6 +1,6 @@
-package com.alexkolson.wtf.hibernate.repository;
+package de.hamburgchimps.repository;
 
-import com.alexkolson.wtf.hibernate.entity.Child;
+import de.hamburgchimps.entity.Child;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ChildRepository extends JpaRepository<Child, Long> {

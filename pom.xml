@@ -8,8 +8,8 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.alexkolson.wtf</groupId>
-	<artifactId>hibernate</artifactId>
+	<groupId>de.hamburgchimps</groupId>
+	<artifactId>wtf-hibernate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hibernate</name>
 	<description>Hibernate Inheritance Strangeness</description>
@@ -34,6 +34,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>3.23.1</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
